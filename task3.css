@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  .project-form, .projects {
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"] {
+    width: calc(100% - 120px);
+    padding: 10px;
+    margin-right: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .project {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+  
+  .project h3 {
+    margin: 0;
+  }
+  
+  .task-list {
+    margin-top: 10px;
+  }
+  
+  .task {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    margin-top: 5px;
+  }
+  
+  .comment {
+    border-top: 1px solid #ddd;
+    padding-top: 5px;
+    margin-top: 5px;
+  }
+  
+  .comment input {
+    width: calc(100% - 80px);
+    padding: 5px;
+    margin-right: 5px;
+  }
+  
+  .comment button {
+    padding: 5px 10px;
+  }
+  
